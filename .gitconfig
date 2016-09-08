@@ -1,0 +1,11 @@
+[user]
+  email = hemstad@live.com
+  name = Jonathan Hemstad
+[alias]
+  last = log -1 HEAD
+  co = checkout
+  br = branch
+  ci = commit
+  st = status
+  cl = clone
+  g = git
