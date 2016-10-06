@@ -14,9 +14,13 @@ unset MANPATH # delete if you already modified MANPATH elsewhere in your config
 export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 
 # Load the shell dotfiles:
-for file in ~/dotfiles/.{aliases,custom}; do
+for file in ~/dotfiles/.{aliases,custom,git-completion.bash,git-prompt.sh}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
+
+# Custom cmd prompt
+export GIT_PS1_SHOWDIRTYSTATE=1
+export PS1='\w$(__git_ps1 "[%s]") 🐙  '
 
 unset file;
 # Case-insensitive globbing (used in pathname expansion)
