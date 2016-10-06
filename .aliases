@@ -1,7 +1,9 @@
+#!/usr/bin/env bash
+
 # Shortcuts
 alias dl="cd ~/Downloads"
-alias home="cd ~/Home"
-alias work="cd ~/Work"
+alias home="cd ~/Home/projects"
+alias work="cd ~/Work/projects"
 
 # Detect which ls flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU "ls"
