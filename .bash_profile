@@ -20,7 +20,7 @@ done;
 
 # Custom cmd prompt
 export GIT_PS1_SHOWDIRTYSTATE=1
-export PS1='\w$(__git_ps1 "[%s]") 🐙  '
+export PS1='\w$(__git_ps1 "[%s]") 🤖  '
 
 unset file;
 # Case-insensitive globbing (used in pathname expansion)
