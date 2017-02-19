@@ -1,6 +1,6 @@
 [user]
   email = hemstad@live.com
-  name = Jonathan Hemstad
+  name = Jonathan
 [color]
   pager = true
   ui = auto
@@ -59,7 +59,6 @@
   ci = commit
   st = status
   cl = clone
-  g = git
   d = diff
   a = !git add . && git status
   au = !git add -u && git status
@@ -70,3 +69,4 @@
   llg = log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(bold green)%cr (%ci)' --abbrev-commit
 [core]
   excludesfile = /Users/jhe/dotfiles/.gitignore_global
+  editor = emacs
