@@ -45,3 +45,4 @@ alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 
 # Apps
 alias truecrypt="/Applications/TrueCrypt.app/Contents/MacOS/TrueCrypt -t"
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
