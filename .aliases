@@ -46,3 +46,11 @@ alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 # Apps
 alias truecrypt="/Applications/TrueCrypt.app/Contents/MacOS/TrueCrypt -t"
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+# start daemon
+alias emd='/Applications/Emacs.app/Contents/MacOS/Emacs --daemon'
+# open in existing frame
+alias em='/Applications/Emacs.app/Contents/MacOS/bin/emacsclient --no-wait'
+# open in new frame
+alias emn='/Applications/Emacs.app/Contents/MacOS/bin/emacsclient -c --no-wait'
+# open in terminal
+alias emt='/Applications/Emacs.app/Contents/MacOS/bin/emacsclient -t'
